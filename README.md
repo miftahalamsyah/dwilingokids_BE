@@ -8,6 +8,30 @@ Berikut beberapa tools, bahasa, dan framework yang digunakan :
 - [Filament PHP](https://filamentphp.com/)
 - [Sanctum](https://github.com/laravel/sanctum) untuk APInya 
 
+### Cara Install Aplikasi ini
+```
+$ git clone https://github.com/miftahalamsyah/dwilingokids_BE.git
+$ cd dwilingokids
+$ cp .env.example .env
+$ composer install
+```
+### Sebelum Memulai
+```
+$ artisan key:generate
+$ artisan storage:link
+$ artisan migrate --seed
+```
+
+### Memulai
+```
+$ php artisan serve
+```
+
+### Akses Dashboard
+Akses melalui [http://localhost/admin](http://localhost/admin)
+
+email : admin@example.com dan password : admin
+
 ### Dwilingo Kids Android App
 Dapat diakses melalui repository berikut :
 https://github.com/miftahalamsyah/dwilingokids
