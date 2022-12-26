@@ -32,7 +32,7 @@ Akses melalui [http://localhost/admin](http://localhost/admin)
 
 email : admin@example.com dan password : admin
 
-### Dwilingo Kids Android App
+# Dwilingo Kids Android App
 Dapat diakses melalui repository berikut :
 https://github.com/miftahalamsyah/dwilingokids
 
